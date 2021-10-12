@@ -97,7 +97,7 @@ nav a:hover{
   /* Requirement 5 code here*/
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: repeat(auto,5);
+  grid-template-rows: repeat(5,auto);
   grid-row-gap: 15px;
 }
 /* Remainder of requirements here: */
@@ -115,7 +115,7 @@ header{
   background-size: cover; /* Parallax effect */
   background-position: center; /* Parallax effect */  
   background-repeat: no-repeat;
-  display: grid; 
+  display: grid;
   grid-column: 1/-1;
   grid-row: 1/span 1;
 
@@ -183,7 +183,7 @@ header{
 
   .container{
     grid-template-columns: 50px auto 500px auto 50px;
-    grid-template-rows: repeat(400px, 5);
+    grid-template-rows: repeat(5,400px);
    
   }
 
